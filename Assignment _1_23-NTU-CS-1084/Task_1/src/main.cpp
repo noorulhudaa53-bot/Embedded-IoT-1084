@@ -85,7 +85,7 @@ void loop() {
         break;
 
       case 3:
-        // Mode 3: Both LEDs ON
+      // Mode 3: Both LEDs ON
         digitalWrite(LED1, HIGH);
         digitalWrite(LED2, HIGH);
         showMsg("Both ON");
